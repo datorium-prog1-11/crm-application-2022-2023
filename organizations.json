@@ -1,0 +1,33 @@
+{
+    "organizations": [
+        {
+            "name": "Tesla Motors",
+            "address": "USA Tesla ave 1",
+            "id": "987654321",
+            "contacts": [
+                {
+                    "name": "Elon",
+                    "position": "CEO",
+                    "id": "1"
+                },
+                {
+                    "name": "Jenifer",
+                    "position": "CTO",
+                    "id": "2"
+                }
+            ]
+        },
+        {
+            "name": "Eesti posti",
+            "address": "Estonia, best street 1",
+            "id": "1234679",
+            "contacts": [
+                {
+                    "name": "Anne",
+                    "position": "CEO",
+                    "id": "3"
+                }
+            ]
+        }
+    ]
+}
