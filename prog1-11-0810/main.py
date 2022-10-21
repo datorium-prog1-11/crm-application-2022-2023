@@ -49,7 +49,7 @@ while(True):
             'organizations': organizations
         }
 
-        with open("organizations.json", "w") as file:
+        with open("prog1-11-0810/organizations.json", "w") as file:
             json.dump(dictionary, file, indent = 4)
         
         print('You data is saved. Bye bye!')
