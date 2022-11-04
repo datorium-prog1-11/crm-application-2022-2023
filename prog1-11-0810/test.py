@@ -1,10 +1,9 @@
 import json
 
-#UZDEVUMS
-file = open("prog1-11-0810/organizations.json","r")
+file = open("organizations.json","r")
 data = json.load(file)
-file.close()
 organizations = data['organizations']
+
 
 while(True):
     response = input('(1)Add organization (2)Print organizations (3)Exit: ')
@@ -18,8 +17,8 @@ while(True):
             'address': organization_address,
             'id': organization_id,
             'contacts': []
-        }        
-        
+        }
+
         while(True):
             response = input('Do you want to add a contact (y/n)? ')
             if response == 'y':
@@ -33,7 +32,7 @@ while(True):
                     'id': contact_id
                 }
 
-                organization['contacts'].append(contact)              
+                organization['contacts'].append(contact)
 
             elif response == 'n':
                 break 
@@ -47,16 +46,14 @@ while(True):
             print(f"Adrese: {organization['address']}")
             print(f"Kontaktu skaits: {len(organization['contacts'])}")
     elif response == '3':
-        print('Saving your data...')
-        
+        print('Saving your data')
+
         dictionary = {
             'organizations': organizations
         }
 
-        with open("prog1-11-0810/organizations.json", "w") as file:
+        with open("organizations.json", "w") as file:
             json.dump(dictionary, file, indent = 4)
-        
-        file.close()
 
         print('You data is saved. Bye bye!')
         exit()

@@ -1,12 +1,12 @@
 {
     "organizations": [
         {
-            "name": "Tesla Motors",
-            "address": "USA Tesla ave 1",
-            "id": "987654321",
+            "name": "Apple",
+            "address": "USA, Apple office",
+            "id": "1",
             "contacts": [
                 {
-                    "name": "Elon",
+                    "name": "Tim",
                     "position": "CEO",
                     "id": "1"
                 },
@@ -14,17 +14,49 @@
                     "name": "Jenifer",
                     "position": "CTO",
                     "id": "2"
+                },
+                {
+                    "name": "Anna",
+                    "position": "Chief designer",
+                    "id": "3"
                 }
             ]
         },
         {
-            "name": "Eesti posti",
-            "address": "Estonia, best street 1",
-            "id": "1234679",
+            "name": "Super start",
+            "address": "Latvia, Super iela 1",
+            "id": "LV987654321",
             "contacts": [
                 {
-                    "name": "Anne",
+                    "name": "Luize",
+                    "position": "Founder",
+                    "id": "1"
+                },
+                {
+                    "name": "Oskars",
+                    "position": "CTO",
+                    "id": "2"
+                }
+            ]
+        },
+        {
+            "name": "Toadaly Awesome",
+            "address": "Latvia, Unicorn street 123",
+            "id": "LV456789123",
+            "contacts": [
+                {
+                    "name": "NovaInfinity",
+                    "position": "Founder",
+                    "id": "1"
+                },
+                {
+                    "name": "DWORD",
                     "position": "CEO",
+                    "id": "2"
+                },
+                {
+                    "name": "AeroSchuetero",
+                    "position": "Super programmer",
                     "id": "3"
                 }
             ]
