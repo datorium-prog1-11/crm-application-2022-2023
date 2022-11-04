@@ -1,6 +1,10 @@
 import json
 
-organizations = []
+file = open("prog1-11-1200/organizations.json", "r")
+data = json.load(file)
+file.close()
+organizations = data['organizations']
+print('Data loaded successfully')
 
 while(True):
     response = input('(1)Add organization (2)Print organisations (3)Exit: ')
@@ -42,14 +46,18 @@ while(True):
             print(f"{organization['name']} ({organization['id']})")
             print(f"Adrese: {organization['address']}")
             print(f"Kontaktu skaits: {len(organization['contacts'])}")
-    elif response == '3':
 
+    elif response == '3':
         data = {
             'organizations': organizations
         }
-
-        file = open('organizations.json', 'w')
+        
+        print('Saving data...')
+        file = open('prog1-11-1200/organizations.json', 'w')
         json.dump(data, file, indent = 4)
-
         print('Bye bye!')
         exit()
+    
+    else:
+        print('Choose a number between 1 and 3')
+        continue

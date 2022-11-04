@@ -1,3 +1,60 @@
 {
-    "organizations": []
+    "organizations": [
+        {
+            "name": "Apple",
+            "address": "Apple office, USA",
+            "id": "US12346789",
+            "contacts": [
+                {
+                    "name": "Tim",
+                    "position": "CEO",
+                    "id": "1"
+                },
+                {
+                    "name": "Jenifer",
+                    "position": "CTO",
+                    "id": "2"
+                },
+                {
+                    "name": "Anna",
+                    "position": "Programmer",
+                    "id": "3"
+                }
+            ]
+        },
+        {
+            "name": "Super Startup",
+            "address": "Unicord street 1, Riga",
+            "id": "LV987654321",
+            "contacts": [
+                {
+                    "name": "Luize",
+                    "position": "Founder",
+                    "id": "1"
+                },
+                {
+                    "name": "Oskars",
+                    "position": "Programmer",
+                    "id": "2"
+                }
+            ]
+        },
+        {
+            "name": "WalkerVerseInc",
+            "address": "Walker street 1, City",
+            "id": "WW123456789",
+            "contacts": [
+                {
+                    "name": "Walker",
+                    "position": "Founder",
+                    "id": "1"
+                },
+                {
+                    "name": "Ilona",
+                    "position": "Communication manager",
+                    "id": "2"
+                }
+            ]
+        }
+    ]
 }
