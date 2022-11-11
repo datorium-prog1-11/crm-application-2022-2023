@@ -59,6 +59,14 @@ def save_data():
     json.dump(data, file, indent = 4)
     print('Data saved')
 
+def find_organisation_by_id():    
+    organization_id = input('Organization id: ')
+    for organization in organizations:
+        if organization['id'] == organization_id:
+            print("---ORGANIZĀCIJA---")
+            print(f"{organization['name']}")           
+            break
+
 def main():
     load_data()
     while(True):
@@ -76,3 +84,6 @@ def main():
         continue
 
 main()
+
+# UZDEVUMS 1
+# Izveido funkciju kas pēc organizācijas ID izvadīs to nosaukumu
