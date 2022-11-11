@@ -64,6 +64,21 @@ def save_data():
     print('You data is saved.')
 
 
+def find_org_by_id():
+    organization_id = input('Organization id: ')
+    found = False
+
+    for organization in organizations:
+        if organization['id'] == organization_id:
+            print("---ORGANIZĀCIJA---")
+            print(f"{organization['name']} ({organization['id']})")
+            found = True
+            break
+
+    if found == False:
+        print("Could't find an organization by this id")
+
+
 def main():
     load_data()
 
@@ -78,3 +93,11 @@ def main():
             exit()
 
 main()
+
+
+# UZDEVUMS 1
+# Izveido funkciju kas izvada organizācijas nosaukumu pēc dota ID
+
+# UZDEVUMS 2
+# (a) papildināt kodu lai var ievadīt kontakpersonas tālruņa numuru
+# (b) pēc kontakta tāruna numura var atrast kontakta vārdu
