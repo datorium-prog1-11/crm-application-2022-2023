@@ -64,15 +64,17 @@ def save_data():
     print('You data is saved.')
 
 
+def main():
+    load_data()
 
-load_data()
+    while(True):
+        response = input('(1)Add organization (2)Print organizations (3)Exit: ')
+        if response == '1':
+            add_organization()
+        elif response == '2':
+            print_organizations()
+        elif response == '3':
+            save_data()
+            exit()
 
-while(True):
-    response = input('(1)Add organization (2)Print organizations (3)Exit: ')
-    if response == '1':
-        add_organization()
-    elif response == '2':
-        print_organizations()
-    elif response == '3':
-        save_data()
-        exit()
+main()
