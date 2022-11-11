@@ -2,8 +2,8 @@
     "organizations": [
         {
             "name": "Apple",
-            "address": "USA, Apple office",
-            "id": "1",
+            "address": "Apple office, USA",
+            "id": "US12346789",
             "contacts": [
                 {
                     "name": "Tim",
@@ -17,14 +17,14 @@
                 },
                 {
                     "name": "Anna",
-                    "position": "Chief designer",
+                    "position": "Programmer",
                     "id": "3"
                 }
             ]
         },
         {
-            "name": "Super start",
-            "address": "Latvia, Super iela 1",
+            "name": "Super Startup",
+            "address": "Unicord street 1, Riga",
             "id": "LV987654321",
             "contacts": [
                 {
@@ -34,30 +34,25 @@
                 },
                 {
                     "name": "Oskars",
-                    "position": "CTO",
+                    "position": "Programmer",
                     "id": "2"
                 }
             ]
         },
         {
-            "name": "Toadaly Awesome",
-            "address": "Latvia, Unicorn street 123",
-            "id": "LV456789123",
+            "name": "WalkerVerseInc",
+            "address": "Walker street 1, City",
+            "id": "WW123456789",
             "contacts": [
                 {
-                    "name": "NovaInfinity",
+                    "name": "Walker",
                     "position": "Founder",
                     "id": "1"
                 },
                 {
-                    "name": "DWORD",
-                    "position": "CEO",
+                    "name": "Ilona",
+                    "position": "Communication manager",
                     "id": "2"
-                },
-                {
-                    "name": "AeroSchuetero",
-                    "position": "Super programmer",
-                    "id": "3"
                 }
             ]
         }

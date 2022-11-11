@@ -1,11 +1,10 @@
 import json
 
-organizations = []
-
 def load_data():
     file = open("prog1-11-0810/organizations.json","r")
     data = json.load(file)
-    file.close()
+    file.close()    
+    global organizations
     organizations = data['organizations']
 
 
